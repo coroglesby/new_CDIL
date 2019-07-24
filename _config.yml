@@ -1,0 +1,27 @@
+# add the full url for the github repository
+repo:
+
+# site urls
+# add the url for the domain,
+# on gh-pages follow the pattern: https://username.github.io 
+url: 
+# add subsection of the domain,
+# on gh-pages this is a / followed by the name of the repository
+baseurl:
+
+# add search box to footer?
+search: true
+
+# add google analytics if desired (optional)
+# if blank, it will be ignored
+# use JEKYLL_ENV=production on build command
+google_analytics: 
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "default"
+# Build settings
+markdown: kramdown

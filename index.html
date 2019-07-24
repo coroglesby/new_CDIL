@@ -1,0 +1,32 @@
+---
+title: Home
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        {% include sidebar.html %}
+
+        <!-- Page Content  -->
+        <div id="content">
+            {% include top-nav.html %}
+
+            {% include pages/about.html %}
+            {% include pages/people.html %}
+            {% include pages/projects.html %}
+            {% include pages/workshops-events.html %}   
+
+        </div>
+    </div>
+
+</body>
+
+{% include foot.html %}
+
+</html>
